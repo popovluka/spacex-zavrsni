@@ -1,1 +1,1 @@
-Readme sta znam
+Izmena readme na novoj grani
