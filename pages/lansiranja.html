@@ -3,9 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lansiranja</title>
+    <link rel="stylesheet" href="/spacex-zavrsni/styles/index.css" />
+    <title>Launches</title>
   </head>
   <body>
-    <!-- TODO: -->
+    <nav class="nav">
+      <img
+        class="logo"
+        src="/spacex-zavrsni/images/SpaceX_logo_black.svg.png"
+      />
+      <ul class="links">
+        <a class="home" id="home" href="/spacex-zavrsni/index.html">HOME</a>
+        <a
+          class="launches"
+          id="launches"
+          href="/spacex-zavrsni/pages/lansiranja.html"
+          style="text-decoration: underline;"
+          >LAUNCHES</a
+        >
+        <a class="rockets" href="/spacex-zavrsni/pages/rakete.html">ROCKETS</a>
+        <a class="about-us" href="/spacex-zavrsni/pages/onama.html">ABOUT US</a>
+      </ul>
+    </nav>
+    <div>
+      <h1 class="naslov">Launches</h1>
+    </div>
+    <div id="launchesPlaceHolder" class="launchesPlaceHolder"></div>
+    <script src="/spacex-zavrsni/scripts/index.js"></script>
   </body>
 </html>

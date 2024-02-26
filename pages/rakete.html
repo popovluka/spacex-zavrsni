@@ -3,9 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rakete</title>
+    <meta name="referrer" content="no-referrer" />
+    <link rel="stylesheet" href="/spacex-zavrsni/styles/index.css" />
+    <title>Rockets</title>
   </head>
-  <body>
-    <!-- TODO: -->
+  <body id="bodi">
+    <nav class="nav">
+      <img
+        class="logo"
+        src="/spacex-zavrsni/images/SpaceX_logo_black.svg.png"
+      />
+      <ul class="links">
+        <a class="home" id="home" href="/spacex-zavrsni/index.html">HOME</a>
+        <a
+          class="launches"
+          id="launches"
+          href="/spacex-zavrsni/pages/lansiranja.html"
+          >LAUNCHES</a
+        >
+        <a
+          class="rockets"
+          href="/spacex-zavrsni/pages/rakete.html"
+          style="text-decoration: underline"
+          >ROCKETS</a
+        >
+        <a class="about-us" href="/spacex-zavrsni/pages/onama.html">ABOUT US</a>
+      </ul>
+    </nav>
+    <h1 class="naslov" id="naslov">Rockets</h1>
+    <div></div>
+
+    <div id="rocketPlaceHolder" class="rocketPlaceHolder"></div>
+
+
+
+    <div class="dualview" id="dualview" style="display: none;">
+      <div class="left" id="left">
+        <h1 class="rocketname" id="rocketname">Falcon 1 </h1>
+        <h2 class="rocketType" id="rocketType">Type: Rocket</h2>
+        <h2 class="firstFlight" id="firstFlight">First Flight: 24.3.2006.</h2>
+        <div class="splitview" id="splitview">
+          <div class="levi" id="levi">
+            <div class="data" id="cost">Cost per launch</div>
+            <div class="data" id="company">Company</div>
+            <div class="data" id="success">Success rate</div>
+            <div class="data" id="ifactive">Active</div>
+          </div>
+          <div class="desni" id="desni">
+            <div class="data" id="country">Country</div>
+            <div class="data" id="stage">Stage</div>
+            <div class="data" id="height">Height</div>
+            <div class="data" id="diametar">Diameter</div>
+            <div class="data" id="mass">Mass</div>
+          </div>
+        </div>
+        <div class="desc" id="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</div>
+        <div class="buttonz" id="buttonz">
+        <button class="wiki" id="wiki">Wiki</button>
+        <button class="toggle" id="toggle">Toggle imperial Units</button>
+        <button class="back" id="back" onclick="history.back()">← Back</button>
+      </div>
+      </div>
+      <div class="right" id="right>">
+        <img class="specificRocketImg" id="specificRocketImg" src="/spacex-zavrsni/images/pexels-spacex-60132.jpg">
+        <div class="container" id="container">
+        <button class="prev" id="prev">⮜</button>
+        <button class="next" id="next">⮞</button>
+      </div>
+      </div>
+    </div>
+    <script src="/spacex-zavrsni/scripts/index.js"></script>
   </body>
 </html>
